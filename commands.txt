@@ -1,0 +1,24 @@
+conda activate fastAPI
+
+conda install virtualenv
+
+virtualenv fastapi_venv
+
+source fastapi_venv/bin/activate
+
+pip freeze
+
+uvicorn main:app --reload
+
+uvicorn app.main:app --reload
+
+
+pip install 'python-jose[cryptography]'
+
+pip install sqlalchemy 
+
+pip install psycopg2     
+
+brew install postgresql  
+
+openssl rand -hex 32
