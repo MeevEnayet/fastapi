@@ -22,3 +22,34 @@ pip install psycopg2
 brew install postgresql  
 
 openssl rand -hex 32
+
+
+
+git steps-
+
+#initialize local git repo
+git init
+
+#config the master branch to main branch
+git config --global init.defaultBranch main
+
+#change the current branch name 
+git branch -m main 
+
+#add all files in the directory into git 
+git add --all
+
+#commit the change 
+git commit -m "commit msg"
+
+#tell git who you are
+git config --global user.email "you@example.com"
+git config --global user.name "Your name"
+
+#set up remote branch, allows us to store all of our code in github 
+git remote add origin https://github.com/MeevEnayet/fastapi.git
+
+#push all code to git hub
+git push -u origin main
+
+
