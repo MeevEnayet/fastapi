@@ -53,3 +53,15 @@ git remote add origin https://github.com/MeevEnayet/fastapi.git
 git push -u origin main
 
 
+install heroku
+then 
+heroku login
+
+#create an app name, which is global
+heroku create fastapi-meev
+
+#this is basically creating a remote repo in heroku 
+#check out what remote stuff is there is for your git 
+git remote
+
+#like for example, git push origin main pushes to my github repo, 
